@@ -55,7 +55,7 @@ You can also visit **[infusionplayer.stream/download](https://infusionplayer.str
 | ![General settings](assets/screenshots/tv/10-settings-general.jpg) | ![Cinemeta add-on long-press menu](assets/screenshots/tv/15-cinemeta-long-press.jpg) |
 | **Personalize** | **Manage add-ons** |
 
-[View all 14 Android TV screenshots](assets/screenshots/tv/)
+[View all 14 Android TV screenshots](https://github.com/Addonniss/infusion-releases/tree/main/assets/screenshots/tv)
 
 ## Open Source
 
