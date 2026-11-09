@@ -1,0 +1,21 @@
+name: Import existing Discover screenshot
+on:
+  push:
+    paths:
+      - '.github/workflows/import-discover-once.yml'
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download and verify exact original image
+        run: |
+          set -euo pipefail
+          mkdir -p assets/screenshots/tv
+          curl --fail --location --retry 2 --output assets/screenshots/tv/09-discover.jpg "https://raw.githubusercontent.com/Addonniss/infusion-releases/main/assets/screenshots/tv/09-discover.jpg"
+          test "$(git hash-object assets/screenshots/tv/09-discover.jpg)" = "73a702dc3e881cdd68e601a3bd05ebc212658fc3"
+          git add assets/screenshots/tv/09-discover.jpg
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'assets: preserve original Discover screenshot'
+          git push origin HEAD:main
