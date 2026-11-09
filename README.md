@@ -16,16 +16,12 @@
   <a href="https://github.com/Addonniss/fission-releases/releases">Releases</a>
 </p>
 
-This repository is where fission builds are published. Builds released before the rename stay
-available in the compatibility release repository, which remains online while existing
-installations move across.
-
 ## Install
 
 **Using Downloader by AFTVnews**
 
 1. Install [Downloader](https://play.google.com/store/apps/details?id=com.esaba.downloader) on your Android TV.
-2. Enter the permanent fission code:
+2. Enter the existing Downloader code:
 
 <h2 align="center"><code>7197071</code></h2>
 
@@ -46,6 +42,21 @@ You can also visit **[infusionplayer.stream/download](https://infusionplayer.str
 - **Personal profiles.** Give each profile its own presentation preferences.
 - **Easier setup.** Enter credentials from your phone using a temporary local-network setup page instead of typing everything with a remote.
 
+## Screenshots
+
+| | |
+|:---:|:---:|
+| ![Spotlight on Home](assets/screenshots/tv/01-spotlight.jpg) | ![Public Domain Movies landscape cards](assets/screenshots/tv/02-public-domain-row-landscape-cards.jpg) |
+| **Spotlight** | **Landscape cards** |
+| ![Public Domain Movies poster cards](assets/screenshots/tv/03-public-domain-row-poster-cards.jpg) | ![The Kid details](assets/screenshots/tv/06-details-stage-2.jpg) |
+| **Poster cards** | **Movie details** |
+| ![Recommended section](assets/screenshots/tv/07-details-recommended.jpg) | ![Discover page](https://raw.githubusercontent.com/Addonniss/infusion-releases/main/assets/screenshots/tv/09-discover.jpg) |
+| **Recommendations** | **Discover** |
+| ![General settings](assets/screenshots/tv/10-settings-general.jpg) | ![Cinemeta add-on long-press menu](assets/screenshots/tv/15-cinemeta-long-press.jpg) |
+| **Personalize** | **Manage add-ons** |
+
+[View all 14 Android TV screenshots](assets/screenshots/tv/)
+
 ## Open Source
 
 fission's application source code is publicly available under the GNU General Public License v3.0 (GPLv3).
@@ -54,17 +65,18 @@ You can inspect, modify, and redistribute the GPL-covered source code under the 
 
 **[View Source Code](https://github.com/Addonniss/infusion-sources)** · **[GPLv3 License](https://github.com/Addonniss/infusion-sources/blob/main/LICENSE)**
 
-This repository hosts official signed Android TV installers and release information. The application source code is maintained in a separate public source repository.
+This repository hosts official signed Android TV installers and release information. The application source code is maintained in the separate `infusion-sources` repository.
 
 ## Public alpha
 
-fission is currently in public alpha, and the experience is still evolving. For the latest build, changes and known issues, visit [GitHub Releases](https://github.com/Addonniss/fission-releases/releases).
+fission is currently in public alpha, and the experience is still evolving. For future builds, changes and known issues, visit [GitHub Releases](https://github.com/Addonniss/fission-releases/releases). The v0.1.4 bridge and earlier builds remain in [legacy releases](https://github.com/Addonniss/infusion-releases/releases) during the migration.
 
 fission is a media player, **not a content service**. It doesn't provide its own movies, shows, streams or bundled catalogs. You connect your own Jellyfin server and/or choose your own add-ons.
 
 <p align="center">
   <a href="https://infusionplayer.stream/support/">Support</a> ·
   <a href="https://infusionplayer.stream/privacy/">Privacy</a> ·
+  <a href="https://github.com/Addonniss/infusion-releases/blob/main/SECURITY.md">Security</a> ·
   <a href="COPYRIGHT.md">Copyright</a> ·
   <a href="THIRD-PARTY-NOTICES.md">Third-party notices</a>
 </p>
