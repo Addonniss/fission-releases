@@ -21,9 +21,9 @@
 **Using Downloader by AFTVnews**
 
 1. Install [Downloader](https://play.google.com/store/apps/details?id=com.esaba.downloader) on your Android TV.
-2. Enter the existing Downloader code:
+2. Enter the fission Downloader code:
 
-<h2 align="center"><code>7197071</code></h2>
+<h2 align="center"><code>4188438</code></h2>
 
 3. Open the [fission download page](https://fissionplayer.stream/download/) shown in Downloader, download the latest TV version and follow Android's installation prompts.
 
