@@ -63,9 +63,9 @@ fission's application source code is publicly available under the GNU General Pu
 
 You can inspect, modify, and redistribute the GPL-covered source code under the terms of the license.
 
-**[View Source Code](https://github.com/Addonniss/infusion-sources)** · **[GPLv3 License](https://github.com/Addonniss/infusion-sources/blob/main/LICENSE)**
+**[View Source Code](https://github.com/Addonniss/fission-sources)** · **[GPLv3 License](https://github.com/Addonniss/fission-sources/blob/main/LICENSE)**
 
-This repository hosts official signed Android TV installers and release information. The application source code is maintained in the separate `infusion-sources` repository.
+This repository hosts official signed Android TV installers and release information. The application source code is maintained in the separate `fission-sources` repository.
 
 ## Public alpha
 
